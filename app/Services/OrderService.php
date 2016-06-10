@@ -9,7 +9,15 @@
 namespace App\Services;
 
 
+use App\User;
+
 class OrderService
 {
 
+    /**
+     * OrderService constructor.
+     */
+    public function __construct(User $user)
+    {
+    }
 }
