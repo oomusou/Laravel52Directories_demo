@@ -36,10 +36,13 @@
         </style>
     </head>
     <body>
-        <div class="container">
+        <div id="app" class="container">
             <div class="content">
                 <div class="title">Laravel 5</div>
+                <div>@{{ message }}</div>
             </div>
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.24/vue.js"></script>
+        <script src="js/app.js"></script>
     </body>
 </html>
